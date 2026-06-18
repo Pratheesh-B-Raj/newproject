@@ -1,13 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>PROFILE</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
 
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        .profile-img{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            object-fit:cover;
+            border:4px solid white;
+            margin-bottom:10px;
+        }
+
+        section{
+            max-width:900px;
+            margin:20px auto;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            margin-bottom:15px;
+            color:#0077cc;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        .project{
+            margin-bottom:15px;
+            padding:10px;
+            border-left:4px solid #0077cc;
+            background:#f9f9f9;
+        }
+
+        .project a{
+            color:#0077cc;
+            text-decoration:none;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#222;
+            color:white;
+            margin-top:20px;
+        }
+    </style>
+</head>
 <body>
-    <h1 style="text-align: center;">MY PROFILE</h1>
-    <img src="profile.jpg" alt="avatar">
-    <h2 style="text-align: center;">Pratheesh B Raj</h2>    
+
+<header>
+    <img src="profile.jpg" alt="Profile Image" class="profile-img">
+
+    <h1>Pratheesh B Raj</h1>
+    <p>Web Developer | Student | Programmer</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! I am a passionate web developer interested in creating
+        modern and responsive websites. I enjoy learning new technologies
+        and building useful projects.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Project 1</h3>
+        <p>PBR Jersey Store is an online football gear shop where fans can
+        explore and purchase jerseys, shorts, boots, and accessories of
+        top football clubs and national teams.</p>
+        <a href="https://pratheesh-b-raj.github.io/webpage/" target="_blank">Project Link</a>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Details</h2>
+    <p><strong>Email:</strong> pratheeshbraj@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9876543210</p>
+    <p><strong>GitHub:</strong> github.com/Pratheesh-B-Raj</p>
+    <p><strong>LinkedIn:</strong> linkedin.com/in/Pratheesh-B-Raj</p>
+</section>
+
+<footer>
+    <p>© 2026 Pratheesh B Raj. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
